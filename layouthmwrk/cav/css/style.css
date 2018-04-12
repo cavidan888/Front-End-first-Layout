@@ -1,0 +1,427 @@
+body{
+font-family: 'Varela Round', sans-serif;
+margin:0;
+}
+#header{
+height: 60px;
+padding: 20px;
+}
+.normal{
+width:1170px;
+margin:0 auto;
+padding: 20px;
+}
+.logo{
+height:40px;
+float:left;
+}
+.logo img{
+height:40px;
+}
+.nav-bar{
+float:right;
+}
+.nav-bar ul li{
+display: inline-block;
+list-style: none;
+margin:0 10px;
+}
+.nav-bar ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-size: .9em;
+font-weight: bold;
+color: #515A79;
+}
+.clear{
+clear: both;
+}
+#slider{
+height:430px;
+background-color:#4292c4;
+overflow: hidden;
+}
+#slider h1{
+font-size:2em;
+}
+#slider img{
+width:650px;
+float:right;
+margin-top:40px;
+}
+#slider .normal div{
+width:500px;
+float: left;
+padding:80px 0 0 0;
+}
+#slider .normal div>button{
+padding:10px 30px;
+border:none;
+background-color:#008000;
+font-family:'Varela Round';
+color:white;
+font-weight: bold;
+}
+#features{
+height:auto;
+background-color:white;
+padding:50px;
+}
+#features .container{
+margin:0 auto;
+width:540px;
+text-align:center;
+word-spacing:3px;
+color:gray;
+}
+#features .container h1{
+color: #4292c4;
+font-size:3em;
+margin:0;
+padding:0;
+}
+.bird{
+width:530px;
+height: 200px;
+/*	background-color: green;*/
+display: inline-block;
+margin-left:40px;
+margin-bottom:10px;
+margin-top:20px;
+position: relative;
+}
+.bird .circle{
+width:100px;
+height:100px;
+/*    background-color:orange;*/
+margin-top:50px;
+line-height:100px;
+text-align:center;
+border-radius:50%;
+display:inline-block;
+border:3px solid #4292c4;
+}
+.bird .circle p{
+font-size:1.5em;
+font-weight:bold;
+margin:0;
+padding:0;
+}
+/*
+.bird h1{
+margin:0;
+padding:0;
+position: absolute;
+left:350px;
+bottom:-125px;
+}*/
+.content{
+width:92%;
+color:white;
+display: inline-block;
+/*    background-color:pink;*/
+position: absolute;
+bottom:66.5px;
+padding-left:15px;
+color:black;
+}
+.content h1,p{
+margin:0;
+padding:0;
+}
+#info{
+height:450px;
+background-color:red;
+overflow: hidden;
+}
+.miniInfo{
+width:451px;
+height:450px;
+background-color:#515a79;
+display: inline-block;
+margin-right: -5px;
+text-align: center;
+padding-top:15px;
+}
+.portrait{
+width:250px;
+height:180px;
+margin:0 auto;
+line-height:180px;
+background-image:url('../img/l.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position: center;
+}
+.portrait p{
+margin:0;
+padding:0;
+}
+.infoContent{
+width:360px;
+margin:0 auto;
+margin-top:20px;
+padding:20px;
+}
+.infoContent h1{
+color: white;
+margin:0;
+padding:0;
+}
+.infoContent p{
+color:lightgray;
+margin:0;
+}
+.infoContent button{
+padding:10px 25px;
+border:none;
+font-family: 'Varela Round';
+cursor:pointer;
+outline:none;
+font-weight:bold;
+background-color:transparent;
+font-size:1em;
+color:white;
+}
+#ourWork{
+height:auto;
+padding:30px;
+}
+.ourWorkText{
+width:500px;
+margin:0 auto;
+text-align: center;
+}
+.ourWorkText h1{
+color:#515a79;
+}
+.ourWorkText p{
+color:gray;
+}
+.listItems{
+margin:0 auto;
+width:400px;
+}
+.listItems ul li{
+list-style: none;
+display: inline-block;
+margin-left:18px;
+color:gray;
+font-weight: bold;
+}
+.active{
+color:#515a79;
+}
+.workPictures{
+width:274px;
+height: auto;
+background-color:#fff;
+display:inline-block;
+margin-bottom:10px;
+margin-left:15px;
+/*background-image:url('../img/m.jpg');
+background-repeat:no-repeat;
+background-size: cover;*/
+}
+.workPictures h3{
+margin:0;
+padding-bottom:5px;
+color:#515a79;
+}
+.workPictures p{
+color:gray;
+}
+.workPictures img{
+width:100%;
+height:150px;
+}
+#onix{
+background-color:#515a79;
+padding-bottom:25px;
+}
+#onix .text{
+display:inline-block;
+width:550px;
+}
+#onix .buttons{
+float:right;
+padding:20px 0;
+margin-top:18px;
+}
+#onix .text h1{
+margin:0;
+color:white;
+}
+#onix .text p{
+color:lightgray;
+margin:0;
+}
+#onix .buttons button{
+padding:12px 45px;
+border:none;
+font-family: 'Varela Round';
+cursor:pointer;
+outline:none;
+font-weight:bold;
+background-color:#35FF7F;
+color:#fff;
+text-transform:uppercase;
+}
+#blog{
+height:auto;
+/*background-color:red;*/
+padding:20px;
+}
+#blog .blogContainer{
+margin:0 auto;
+width:540px;
+text-align:center;
+word-spacing:3px;
+color:gray;
+margin-bottom:30px;
+}
+#blog .blogContainer h1{
+color: #4292c4;
+font-size:3em;
+margin:0;
+padding:0;
+}
+.news{
+width:530px;
+height: 200px;
+/*background-color:orange;*/
+display: inline-block;
+margin-left:40px;
+margin-bottom:10px;
+margin-top:20px;
+}
+.news .nested{
+width:200px;
+height:154px;
+/*	background-color:green;*/
+float: left;
+margin-top:23px;
+}
+.blogContent{
+width:330px;
+position: absolute;
+display: inline-block;
+padding:19.3px;
+}
+.blogContent h1{
+margin:0;
+padding:0;
+border:none;
+color:gray;
+}
+.blogContent h1{
+color:#4292c4;
+}
+.blogContent p{
+margin:0;
+padding:0;
+border:none;
+color:gray;
+}
+.nested{
+background-image: url('../img/ymrta.png');
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+#testimonials{
+background-color:#515a79;
+padding:15px;
+}
+#testimonials .title{
+display:inline-block;
+margin-top:6px;
+color:#fff;
+}
+#testimonials .title h1{
+margin:0;
+}
+#testimonials .form{
+float:right;
+}
+#testimonials .form input{
+padding-top:11.1px;
+padding-bottom:10.5px;
+outline:none;
+width:350px;
+font-family:'Varela Round';
+padding-left:5px;
+border:none;
+}
+#testimonials .form button{
+padding:11.1px 45px;
+border:none;
+font-family: 'Varela Round';
+cursor:pointer;
+outline:none;
+font-weight:bold;
+background-color:#35FF7F;
+color:#fff;
+margin-left:5px;
+}
+#percent{
+/*background-color:orange;*/
+padding:15px;
+}
+#percent .percentText{
+/*background-color:green;*/
+margin:0 auto;
+width: 600px;
+text-align: center;
+}
+#percent .percentText h1{
+color: #4292c4;
+font-size:2em;
+padding-bottom:10px;
+margin: 0;
+}
+#percent .percentText p{
+color:lightgray;
+margin: 0;
+}
+#percent .percentContainer{
+/*	background-color:pink;*/
+display:inline-block;
+width:250px;
+margin: 0 auto;
+margin-left:32.5px;
+height:200px;
+}
+#percent .percentContainer .circle{
+background-color:white;
+height:130px;
+text-align: center;
+line-height:130px;
+width:130px;
+margin: 37px auto;
+border-radius:50%;
+border-right:3px solid #515a79;
+border-bottom:3px solid #515a79;
+border-right-width:5px;
+border-bottom-width:5px;
+border-left:3px solid #515a79;
+border-left-width:3px;
+}
+#percent .percentContainer .circle p{
+font-family:'Varela Round';
+font-weight:bold;
+font-size:30px;
+color:#515a79;
+}
+#percent .percentContainer h3{
+font-family:'Varela Round';
+font-weight:bold;
+text-align: center;
+}
+/*
+.logoTitle img{
+    background-color: red;
+	height:40px;
+	margin:0 auto;
+	display: inline-block;
+}*/
